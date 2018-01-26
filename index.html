@@ -17,9 +17,9 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.bundle.min.js" integrity="sha384-VspmFJ2uqRrKr3en+IG0cIq1Cl/v/PHneDw6SQZYgrcr8ZZmZoQ3zhuGfMnSR/F2" crossorigin="anonymous"></script>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+ 	
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 	
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
 
   
@@ -27,14 +27,94 @@
 </head>
 <body>
 
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<p>Players:</p>
+		</div>
+		
+		<div class="col-md-2" id="characters">
+			<div class="thumbnail">
+				<img class="characterimage" id="image1" data-value="1" src="assets/images/harrypotter.jpg">
+				<div class="caption">fhaflkdalf</div>
+			</div>
+		</div>
 
-<!-- Attack button -->
-<button id="attack">Attack</button>
+		<div class="col-md-2" id="characters">
+			<div class="thumbnail">
+				<img class="characterimage" id="image2" data-value="2" src="assets/images/voldemort.jpeg">
+				<div class="caption">fhaflkdalf</div>
+			</div>
+		</div>
 
-<!-- Restart button -->
-<button id="restart">Restart</button>
+		<div class="col-md-2" id="characters">
+			<div class="thumbnail">
+				<img class="characterimage" id="image3" data-value="3" src="assets/images/malfoy.jpg">
+				<div class="caption">fhaflkdalf</div>
+			</div>
+		</div>
+
+		<div class="col-md-2" id="characters">
+			<div class="thumbnail">
+				<img class="characterimage" id="image4" data-value="4" src="assets/images/dementor.jpg">
+				<div class="caption">fhaflkdalf</div>
+			</div>
+		</div>
 
 
+	</div>
+
+
+	<div class="row">
+		<div class="col-md-12">
+			<p>Your Character:</p>
+		</div>
+
+		<div class="col-md-2">
+			<div class="thumbnail" id="chosen-character">
+				<div class="caption"></div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-md-12">
+			<p>Enemies Available To Attack</p>
+		</div>
+
+		<div class="col-md-2">
+			<div class="thumbnail" id="enemies">
+				<div class="caption"></div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-md-12">
+			<p>Defender:</p>
+		</div>
+		<div class="col-md-2">
+			<div class="thumbnail" id="defender">
+				<div class="caption"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<!-- Attack button -->
+	<button id="attack">Attack</button>
+
+	<!-- Restart button -->
+	<button id="restart">Restart</button>
+
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
 
 
 
